@@ -34,11 +34,7 @@
     text-align:center;
 }
 /*Main footer*/
-#footer-info .footer-container{
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-}
+
 #footer-info .footer-container,
 #footer-info .footer-container > p{
     grid-template-columns:1fr;
