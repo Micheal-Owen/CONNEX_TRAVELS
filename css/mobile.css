@@ -13,7 +13,9 @@
     margin-bottom:0.75rem;
 }
 #main-nav ul li a{
-    padding: 0.25rem;
+    padding: 1rem;
+    padding-bottom: 0.75rem;
+    margin-left: 2.5rem;
 }
 /*Showcase*/
 #showcase .showcase-container{
@@ -21,7 +23,7 @@
 }
 /*Articles*/
 #home-articles .articles-container{
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns:repeat(1, 1fr);
 }
 #home-articles .articles-container *:first-child,
 #home-articles .articles-container *:last-child{
@@ -34,7 +36,6 @@
     text-align:center;
 }
 /*Main footer*/
-
 #footer-info .footer-container,
 #footer-info .footer-container > p{
     grid-template-columns:1fr;
